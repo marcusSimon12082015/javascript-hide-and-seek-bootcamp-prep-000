@@ -5,13 +5,13 @@ describe('index', () => {
       expect(getFirstSelector('.ranked-list')).toEqual(document.querySelector('.ranked-list'))
     })
   })
-/*
+
   describe('nestedTarget()', () => {
     it('pulls a .target out of #nested', () => {
       expect(nestedTarget()).toEqual(document.querySelector('#nested .target'))
     })
   })
-
+/*
   describe('deepestChild()', () => {
     it('returns the most deeply nested child in #grand-node', () => {
       console.log(deepestChild().innerHTML)
